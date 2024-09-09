@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+<cars>
+    <car>
+        <brand>BMW</brand>
+        <model>320i</model>
+        <year>2020</year>
+        <price>35000</price>
+        <engine>2.0L</engine>
+        <color>White</color>
+    </car>
+    <car>
+        <brand>Mercedes-Benz</brand>
+        <model>C-Class</model>
+        <year>2021</year>
+        <price>42000</price>
+        <engine>2.0L Turbo</engine>
+        <color>Black</color>
+    </car>
+    <car>
+        <brand>Audi</brand>
+        <model>A4</model>
+        <year>2019</year>
+        <price>37000</price>
+        <engine>2.0L TFSI</engine>
+        <color>Silver</color>
+    </car>
+    <car>
+        <brand>Tesla</brand>
+        <model>Model 3</model>
+        <year>2022</year>
+        <price>50000</price>
+        <engine>Electric</engine>
+        <color>Red</color>
+    </car>
+</cars>
