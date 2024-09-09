@@ -1,0 +1,9 @@
+<!ELEMENT cars (car*)>
+<!ELEMENT car (brand, model, year, price, engine, color)>
+
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT engine (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
