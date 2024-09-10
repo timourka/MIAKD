@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
-<!DOCTYPE cars SYSTEM "cars.dtd">
-<cars>
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="cars.xsd">
     <car>
         <brand>BMW</brand>
         <model>320i</model>
