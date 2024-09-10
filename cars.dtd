@@ -7,3 +7,6 @@
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT engine (#PCDATA)>
 <!ELEMENT color (#PCDATA)>
+
+<!ATTLIST car
+    index ID #REQUIRED>
