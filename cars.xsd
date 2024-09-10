@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Элемент cars содержит 0 или больше элементов car -->
     <xs:element name="cars">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="car" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="brand" type="xs:string"/>
-                            <xs:element name="model" type="xs:string"/>
-                            <xs:element name="year" type="xs:int"/>
-                            <xs:element name="price" type="xs:decimal"/>
-                            <xs:element name="engine" type="xs:string"/>
-                            <xs:element name="color" type="xs:string"/>
+                            <xs:element name="brand" default="noname">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="BMW"/>
+                                        <xs:enumeration value="Mercedes-Benz"/>
+                                        <xs:enumeration value="Audi"/>
+                                        <xs:enumeration value="Toyota"/>
+                                        <xs:enumeration value="Honda"/>
+                                        <xs:enumeration value="Ford"/>
+                                        <xs:enumeration value="Chevrolet"/>
+                                        <xs:enumeration value="Volkswagen"/>
+                                        <xs:enumeration value="Nissan"/>
+                                        <xs:enumeration value="Tesla"/>
+                                        <xs:enumeration value="Volvo"/>
+                                        <xs:enumeration value="noname"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="model" default="noname">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="1"/>
+                                        <xs:maxLength value="50"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="year">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="1900"/>
+                                        <xs:maxInclusive value="2100"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="price">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minExclusive value="0"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="engine" default="noname">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="1"/>
+                                        <xs:maxLength value="50"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="color" default="noname">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="1"/>
+                                        <xs:maxLength value="30"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
                         </xs:sequence>
+
+                        <xs:attribute name="index" type="xs:ID" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
