@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="cars.xsl"?>
 <cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="cars.xsd">
-    <car>
+    <car index="car1">
         <brand>BMW</brand>
         <model>320i</model>
         <year>2020</year>
@@ -10,7 +10,7 @@
         <engine>2.0L</engine>
         <color>White</color>
     </car>
-    <car>
+    <car index="car2">
         <brand>Mercedes-Benz</brand>
         <model>C-Class</model>
         <year>2021</year>
@@ -18,7 +18,7 @@
         <engine>2.0L Turbo</engine>
         <color>Black</color>
     </car>
-    <car>
+    <car index="car3">
         <brand>Audi</brand>
         <model>A4</model>
         <year>2019</year>
@@ -26,7 +26,7 @@
         <engine>2.0L TFSI</engine>
         <color>Silver</color>
     </car>
-    <car>
+    <car index="car4">
         <brand>Tesla</brand>
         <model>Model 3</model>
         <year>2022</year>
