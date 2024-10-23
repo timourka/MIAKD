@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="combined.xsl"?>
+<data>
+    <brands><brand><id>1</id><name>Lenovo</name><country>China</country></brand><brand><id>2</id><name>Asus</name><country>Taiwan</country></brand><brand><id>3</id><name>Acer</name><country>Taiwan</country></brand><brand><id>4</id><name>Microsoft</name><country>USA</country></brand><brand><id>5</id><name>Samsung</name><country>South Korea</country></brand><brand><id>6</id><name>MSI</name><country>Taiwan</country></brand></brands>
+    <laptops>
+        <laptop>
+            <id>19</id>
+            <model>MacBook Air M1</model>
+            <price>999.99</price>
+            <release_date>2020-11-17</release_date>
+            <brand_id>1</brand_id>
+        </laptop>
+        <laptop><id>20</id><model>MacBook Pro 14</model><price>1999.99</price><release_date>2021-10-25</release_date><brand_id>1</brand_id></laptop><laptop><id>21</id><model>XPS 15</model><price>1799.99</price><release_date>2022-05-12</release_date><brand_id>2</brand_id></laptop><laptop><id>22</id><model>Inspiron 15</model><price>749.99</price><release_date>2021-04-22</release_date><brand_id>2</brand_id></laptop><laptop><id>23</id><model>Spectre x360</model><price>1499.99</price><release_date>2022-01-05</release_date><brand_id>3</brand_id></laptop><laptop><id>24</id><model>Envy 13</model><price>1199.99</price><release_date>2021-07-14</release_date><brand_id>3</brand_id></laptop><laptop><id>25</id><model>ThinkPad X1 Carbon</model><price>1699.99</price><release_date>2022-02-10</release_date><brand_id>4</brand_id></laptop><laptop><id>26</id><model>IdeaPad 5</model><price>799.99</price><release_date>2021-10-02</release_date><brand_id>4</brand_id></laptop><laptop><id>27</id><model>ZenBook 14</model><price>999.99</price><release_date>2021-12-01</release_date><brand_id>5</brand_id></laptop><laptop><id>28</id><model>ROG Strix G15</model><price>1599.99</price><release_date>2022-03-10</release_date><brand_id>5</brand_id></laptop><laptop><id>29</id><model>Aspire 5</model><price>599.99</price><release_date>2021-09-20</release_date><brand_id>6</brand_id></laptop><laptop><id>30</id><model>Predator Helios 300</model><price>1299.99</price><release_date>2022-06-07</release_date><brand_id>6</brand_id></laptop><laptop><id>31</id><model>Surface Laptop 4</model><price>1299.99</price><release_date>2021-04-27</release_date><brand_id>4</brand_id></laptop><laptop><id>32</id><model>Surface Book 3</model><price>2099.99</price><release_date>2020-05-06</release_date><brand_id>4</brand_id></laptop><laptop><id>33</id><model>Galaxy Book Pro 360</model><price>1199.99</price><release_date>2021-05-14</release_date><brand_id>5</brand_id></laptop><laptop><id>34</id><model>Galaxy Book Ion</model><price>1099.99</price><release_date>2020-06-05</release_date><brand_id>5</brand_id></laptop><laptop><id>35</id><model>MSI GF65 Thin</model><price>1099.99</price><release_date>2021-11-10</release_date><brand_id>6</brand_id></laptop><laptop><id>36</id><model>MSI Stealth 15M</model><price>1599.99</price><release_date>2022-02-15</release_date><brand_id>6</brand_id></laptop></laptops>
+    
+</data>
